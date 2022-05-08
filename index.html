@@ -56,83 +56,91 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
 
-    <!-- carousel -->
-    <div id="carousel__inicio" class="carousel slide mb-4" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 0"></button>
-            <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="1" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="2" aria-label="Slide 2"></button>
+    <main>
+        <!-- carousel -->
+        <div id="carousel__inicio" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 0"></button>
+                <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="1"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="2"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/banner/fbanner0.jpg" class="img-fluid" alt="img banner 0">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/banner/fbanner1.jpg" class="img-fluid" alt="img banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/banner/fbanner2.jpg" class="img-fluid" alt="img banner 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel__inicio" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel__inicio" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./assets/img/banner/fbanner0.jpg" class="img-fluid" alt="img banner 0">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/img/banner/fbanner1.jpg" class="img-fluid" alt="img banner 1">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/img/banner/fbanner2.jpg" class="img-fluid" alt="img banner 2">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel__inicio" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel__inicio" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
 
-    <!-- novedades -->
-    <div class="text-center text-uppercase mb-4">
-        <h2>Novedades</h2>
-    </div>
+        <!-- novedades -->
+        <div class="text-center text-uppercase mb-4">
+            <h2>Novedades</h2>
+        </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
-        <div class="col">
-            <div class="card h-100">
-                <img src="./assets/img/novedades/ecolife.png" class="card-img-top" alt="sanitario ecolife">
-                <div class="card-body">
-                    <h5 class="card-title">Arena aglutinante ecológica ultrapremium</h5>
-                    <p class="card-text">La arena compostable ultraprémium contribuye de manera sostenible y responsable
-                        a la protección del medioambiente de nuestro planeta.</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/img/novedades/ecolife.png" class="card-img-top" alt="sanitario ecolife">
+                    <div class="card-body">
+                        <h5 class="card-title">Arena aglutinante ecológica ultrapremium</h5>
+                        <p class="card-text">La arena compostable ultraprémium contribuye de manera sostenible y
+                            responsable
+                            a la protección del medioambiente de nuestro planeta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/img/novedades/flexi xtreme.jpg" class="card-img-top"
+                        alt="correa flexi modelo xtreme">
+                    <div class="card-body">
+                        <h5 class="card-title">Nueva Flexi Xtreme</h5>
+                        <p class="card-text">Ahora gracias al amortiguador integrado, un tejido extremadamente robusto,
+                            un
+                            frenado unico, mango ajustable y un caño perfeccionado la correa Flexi Xtreme ofrece aún más
+                            comodidad para ti y tu amigo de cuatro patas en cada viaje. <ion-icon name="happy-outline">
+                            </ion-icon>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/img/novedades/rascador.jpg" class="card-img-top"
+                        alt="rascador de cuatro pisos trixie">
+                    <div class="card-body">
+                        <h5 class="card-title">¡Siempre XXL!</h5>
+                        <p class="card-text">Nuevos modelos de rascadores XXL, para rascar, dormir y sobre todo
+                            hermosos.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="./assets/img/novedades/flexi xtreme.jpg" class="card-img-top"
-                    alt="correa flexi modelo xtreme">
-                <div class="card-body">
-                    <h5 class="card-title">Nueva Flexi Xtreme</h5>
-                    <p class="card-text">Ahora gracias al amortiguador integrado, un tejido extremadamente robusto, un
-                        frenado unico, mango ajustable y un caño perfeccionado la correa Flexi Xtreme ofrece aún más
-                        comodidad para ti y tu amigo de cuatro patas en cada viaje. <ion-icon name="happy-outline">
-                        </ion-icon>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="./assets/img/novedades/rascador.jpg" class="card-img-top" alt="rascador de cuatro pisos trixie">
-                <div class="card-body">
-                    <h5 class="card-title">¡Siempre XXL!</h5>
-                    <p class="card-text">Nuevos modelos de rascadores XXL, para rascar, dormir y sobre todo hermosos.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
     <!-- footer -->
     <footer class="text-center text-md-center text-dark ">
@@ -148,7 +156,7 @@
                         <img src="./assets/img/otros/img-footer.png" alt="imagen decorativa para el footer" />
                     </div>
 
-                    <h4 style="font-family: 'Comic Neue', cursive;">Productos de calidad</p>
+                    <h4 class="font-family__comicNeue">Productos de calidad</p>
 
                         <ul class="list-unstyled d-flex flex-row justify-content-center">
                             <li>

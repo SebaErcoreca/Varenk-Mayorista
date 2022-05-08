@@ -32,3 +32,59 @@ body {
     width: 33%!important;
 }
 }
+
+.logoMarcas {
+    height: auto;
+    width: auto;
+    transition: transform 2s ease-in-out;
+}
+
+.logoMarcas:hover {
+    animation: up-and-down 2s ease-in-out;
+}
+
+@keyframes up-and-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+
+    }
+
+    75% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+.font-family__comicNeue{
+    font-family: 'Comic Neue', cursive;
+}
+
+.campo__contacto{
+    border: 0px;
+    padding: 7px 7px;
+    margin-bottom: 10px;
+    color: #939598;
+    width: 100%;
+}
+
+
+#campo__comentario {
+    border: 0px;
+    padding: 7px 7px;
+    margin-bottom: 10px;
+    color: #939598;
+    height: 180px;
+    width: 100%;
+}

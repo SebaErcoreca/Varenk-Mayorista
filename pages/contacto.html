@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <!-- ion-icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -49,13 +54,44 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
+
+    <main>
+
+
+        <div class="row">
+            <img class="img-fluid img__contacto" src="../assets/img/otros/img contacto background.jpg" alt="background img">
+
+            <div class="col-sm-12 text-center text-uppercase m-4">
+                <h2>contacto</h2>
+            </div>
+            <form name="form__contacto">
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="text" name="nombre" placeholder="Nombre y Apellido" class="campo__contacto" required>
+                        <input type="text" name="comercio" placeholder="Comercio" class="campo__contacto" required>
+                        <input type="text" name="direccion" placeholder="Dirección" class="campo__contacto" required>
+                        <input type="text" name="telefono" placeholder="Teléfono" class="campo__contacto" required>
+                        <input type="text" name="celular" placeholder="Celular" class="campo__contacto">
+                        <input type="mail" name="mail" placeholder="Email" class="campo__contacto" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <textarea name="mensaje" id="campo__comentario" placeholder="Comentario"></textarea>
+                        <button class="btn" btn-primary>Enviar</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </main>
 
     <footer class="text-center text-md-center text-dark">
 
@@ -70,7 +106,7 @@
                         <img src="../assets/img/otros/img-footer.png" alt="imagen decorativa para el footer" />
                     </div>
 
-                    <h4 style="font-family: 'Comic Neue', cursive;">Productos de calidad</p>
+                    <h4 class="font-family__comicNeue">Productos de calidad</p>
 
                         <ul class="list-unstyled d-flex flex-row justify-content-center">
                             <li>
