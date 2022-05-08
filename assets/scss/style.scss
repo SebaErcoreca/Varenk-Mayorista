@@ -1,0 +1,75 @@
+//variables, mixins and utilities
+@import "base.scss";
+//btns, navbars and cards
+@import "components.scss";
+//containers and grids
+@import "layout.scss";
+//colors and other palletes
+@import "palettes.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.background__color__footer {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.img{
+    overflow: hidden!important;
+}
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 33%!important;
+    }
+}
+
+@media (min-width: 992px){
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 33%!important;
+}
+}
+
+.logoMarcas {
+    height: auto;
+    width: auto;
+    transition: transform 2s ease-in-out;
+}
+
+.logoMarcas:hover {
+    animation: up-and-down 2s ease-in-out;
+}
+
+@keyframes up-and-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+
+    }
+
+    75% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+.font-family__comicNeue{
+    font-family: 'Comic Neue', cursive;
+}
