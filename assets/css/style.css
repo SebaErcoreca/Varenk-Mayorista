@@ -2,17 +2,118 @@
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.425), 0px 2px 4px rgba(0, 0, 0, 0.384);
   width: 98% !important; }
 
+li a {
+  color: black !important; }
+
 .nav-link:hover {
   background-color: rgba(0, 0, 0, 0.151) !important;
   border-radius: 1rem; }
 
-.card {
-  border: 3px solid black !important;
-  border-radius: 1rem !important; }
+.card__img {
+  background-color: transparent !important;
+  border-radius: 10px !important; }
 
-.card-body {
-  background-color: #F4FDD9;
-  border-radius: 1rem !important; }
+.card {
+  background-color: #f7d0ae !important;
+  border: none !important; }
+
+.img-roundedFit, #card__pngImg {
+  border-radius: 10px !important;
+  margin: 1rem !important; }
+
+#card__pngImg {
+  background-color: white; }
+
+.button, button a, .btn--primary, .btn--secondary, .btn--send, .btn--link, .btn--happy {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem; }
+
+button a {
+  text-decoration: none;
+  color: black; }
+
+.btn--primary {
+  color: #E4FFE1;
+  border-color: #E4FFE1; }
+
+.btn--primary:hover {
+  color: white;
+  border-color: #E4FFE1;
+  background-color: #E4FFE1; }
+
+.btn--primary:focus {
+  box-shadow: 0 0 0 0.25rem white; }
+
+.btn--secondary {
+  color: #F0A868;
+  border-color: #F0A868; }
+
+.btn--secondary:hover {
+  color: white;
+  border-color: #F0A868;
+  background-color: #F0A868; }
+
+.btn--secondary:focus {
+  box-shadow: 0 0 0 0.25rem #fcebdc; }
+
+.btn--send {
+  color: #6A8D73;
+  border-color: #6A8D73; }
+
+.btn--send:hover {
+  color: white;
+  border-color: #6A8D73;
+  background-color: #6A8D73; }
+
+.btn--send:focus {
+  box-shadow: 0 0 0 0.25rem #b2c5b7; }
+
+.btn--link {
+  color: #1C3144;
+  border-color: #1C3144; }
+
+.btn--link:hover {
+  color: white;
+  border-color: #1C3144;
+  background-color: #1C3144; }
+
+.btn--link:focus {
+  box-shadow: 0 0 0 0.25rem #41729e; }
+
+.btn--happy {
+  color: yellow;
+  border-color: yellow; }
+
+.btn--happy:hover {
+  color: white;
+  border-color: yellow;
+  background-color: yellow; }
+
+.btn--happy:focus {
+  box-shadow: 0 0 0 0.25rem #ffff80; }
+
+.icon__color--whatsapp {
+  color: #25D366;
+  margin: .25rem; }
+
+.icon__color--facebook {
+  color: #4267B2;
+  margin: .25rem; }
+
+.icon__color--youtube {
+  color: #FF0000;
+  margin: .25rem; }
+
+.insta__logo {
+  height: 1.3rem;
+  margin: .25rem; }
 
 .campo__contacto {
   border: 0px;
@@ -28,6 +129,11 @@
   color: #939598;
   height: 180px;
   width: 100%; }
+
+.form__contacto {
+  background-color: #E4FFE1;
+  border: 1rem solid #E4FFE1;
+  border-radius: .5rem; }
 
 * {
   margin: 0;
@@ -73,3 +179,6 @@
 
 .font-family__comicNeue {
   font-family: 'Comic Neue', cursive; }
+
+.active {
+  font-weight: bolder; }

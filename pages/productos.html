@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <meta name="description" content="Conoce nuestra amplia gama de productos y sanitarios para gato.">
+    <meta name="keywords"
+        content="Productos, Perro, Gato, Roedores, Uruguay, Arena, Sanitario, Intersand, Trixie, Varenk">
     <!-- css -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- Bootsrap -->
@@ -27,7 +30,7 @@
 
     <!-- navbar -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/img/logos/logovarenk.png" alt="logo de la empresa">
@@ -40,31 +43,31 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./marcas.html">Marcas</a>
+                            <a class="nav-link" aria-current="page" href="./marcas.html">Marcas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./empresa.html">Empresa</a>
+                            <a class="nav-link" aria-current="page" href="./empresa.html">Empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                            <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="button btn--send" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main class="m-4">
         <!-- productos -->
 
         <!-- intersand -->
@@ -74,168 +77,191 @@
             </div>
             <div class="text-center m-4">
                 <!-- cambiar el btn cuando agregue sass -->
-                <button type="button" class="btn-danger rounded-3">
-                    <a href="./contacto.html">
-                        <h6>Lista de precios.</h6>
-                    </a>
+                <button type="button" class="button btn--link">
+                    <a href="./contacto.html">+info </a>
                 </button>
             </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-xl-4 row-cols-md-3 row-cols-sm-2 g-4 m-4 mb-4">
-            <!-- odourlock -->
-            <div class="card h-100">
-                <img src="../assets/img/productos/odourlock.png" alt="odourlock">
-                <div class="card-body">
-                    <h5 class="card-title">Odourlock</h5>
-                    <p><small><strong>Formato disponible: </strong>6kg / 12kg</small></p>
-                    <p class="card-text">Nuestra arena mineral OdourLock está compuesta de arcilla de alta calidad, 100%
-                        pura y natural, diseñada para ofrecer la máxima satisfaccion sin problemas:</p>
-                    <ul>
-                        <li>
-                            <p>
-                                Control de olores inmejorable durante más de 40 días
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Segura para las vías respiratorias de los seres humanos y de los gatos
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Limpieza rápida y fácil para un entorno en el que viven varios gatos
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Probada por veterinarios
-                            </p>
-                        </li>
-                    </ul>
+        <!-- <div class="row row-cols-1 row-cols-xl-4 row-cols-md-3 row-cols-sm-2 g-4 m-4 mb-4"> -->
+        <div class="container-fluid mb-4">
+            <div class="row row-cols-lg-4 g-4">
+                <!-- odourlock -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/img/productos/odourlock.png" class="img-roundedFit" id="card__pngImg"
+                            alt="odourlock">
+                        <div class="card-body">
+                            <h5 class="card-title">Odourlock</h5>
+                            <p><small><strong>Formato disponible: </strong>6kg / 12kg</small></p>
+                            <p class="card-text">Nuestra arena mineral OdourLock está compuesta de arcilla de alta
+                                calidad,
+                                100%
+                                pura y natural, diseñada para ofrecer la máxima satisfaccion sin problemas:</p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Control de olores inmejorable durante más de 40 días
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Segura para las vías respiratorias de los seres humanos y de los gatos
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Limpieza rápida y fácil para un entorno en el que viven varios gatos
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Probada por veterinarios
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- ecolife -->
-            <div class="card h-100">
-                <img src="../assets/img/productos/ecolife.png" alt="ecolife">
-                <div class="card-body">
-                    <h5 class="card-title">Ecolife</h5>
-                    <p><small><strong>Formato disponible: </strong>5,5kg</small></p>
-                    <p class="card-text"> <small>La arena compostable* ultraprémium contribuye de manera sostenible y
-                            responsable a
-                            la protección del medioambiente de nuestro planeta:</small> </p>
-                    <ul>
-                        <li>
-                            <p>
-                                Compuesta por una mezcla especial de maíz y trigo
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Control superior de los olores desagradables
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Tan efectiva como la arcilla higiénica
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Rinde el doble de su peso
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Probada por veterinarios
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Certificada como 100% orgánica por el USDA
-                            </p>
-                        </li>
-                    </ul>
+
+                <!-- ecolife -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/img/productos/ecolife.png" class="img-roundedFit" id="card__pngImg"
+                            alt="ecolife">
+                        <div class="card-body">
+                            <h5 class="card-title">Ecolife</h5>
+                            <p><small><strong>Formato disponible: </strong>5,5kg</small></p>
+                            <p class="card-text"> <small>La arena compostable* ultraprémium contribuye de manera
+                                    sostenible
+                                    y
+                                    responsable a
+                                    la protección del medioambiente de nuestro planeta:</small> </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Compuesta por una mezcla especial de maíz y trigo
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Control superior de los olores desagradables
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Tan efectiva como la arcilla higiénica
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Rinde el doble de su peso
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Probada por veterinarios
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificada como 100% orgánica por el USDA
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- classic -->
-            <div class="card h-100">
-                <img src="../assets/img/productos/intersand classic.jpg" alt="intersand classic">
-                <div class="card-body">
-                    <h5 class="card-title">Intersand Classic</h5>
-                    <p><small><strong>Formato disponible: </strong>7kg / 14kg</small></p>
-                    <p class="card-text">Nuestra arena Classic fue la primera que Intersand sacó a la venta hace 20
-                        años.
-                    </p>
-                    <ul>
-                        <li>
-                            <p>
-                                Compuesta por arcilla de alta calidad 100% natural
+
+                <!-- classic -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/img/productos/intersand classic.jpg" class="img-roundedFit"
+                            alt="intersand classic">
+                        <div class="card-body">
+                            <h5 class="card-title">Intersand Classic</h5>
+                            <p><small><strong>Formato disponible: </strong>7kg / 14kg</small></p>
+                            <p class="card-text">Nuestra arena Classic fue la primera que Intersand sacó a la venta hace
+                                20
+                                años.
                             </p>
-                        </li>
-                        <li>
-                            <p>
-                                Segura para las vías respiratorias de los seres humanos y de los gatos
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Control efectivo de los olores desagradables, con o sin fragancia
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Fácil mantenimiento diario y buen precio
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Probada por veterinarios
-                            </p>
-                        </li>
-                    </ul>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Compuesta por arcilla de alta calidad 100% natural
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Segura para las vías respiratorias de los seres humanos y de los gatos
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Control efectivo de los olores desagradables, con o sin fragancia
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Fácil mantenimiento diario y buen precio
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Probada por veterinarios
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- simple -->
-            <div class="card h-100">
-                <img src="../assets/img/productos/intersand simple.jpg" alt="intersand simple">
-                <div class="card-body">
-                    <h5 class="card-title">Simple</h5>
-                    <p><small><strong>Formato disponible: </strong>10kg / 18kg</small></p>
-                    <p class="card-text">Arena aglutinante que ofrece una buena relación precio-calidad y controla los
-                        olores:</p>
-                    <ul>
-                        <li>
-                            <p>
-                                Compuesta por arcilla natural
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Altamente absorbente
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Control de olores
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Mantenimiento fácil y eficiente
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Sin polvo y sin fragancia
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Probada por los veterinarios
-                            </p>
-                        </li>
-                    </ul>
+
+                <!-- simple -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/img/productos/intersand simple.jpg" class="img-roundedFit"
+                            alt="intersand simple">
+                        <div class="card-body">
+                            <h5 class="card-title">Simple</h5>
+                            <p><small><strong>Formato disponible: </strong>10kg / 18kg</small></p>
+                            <p class="card-text">Arena aglutinante que ofrece una buena relación precio-calidad y
+                                controla
+                                los
+                                olores:</p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Compuesta por arcilla natural
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Altamente absorbente
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Control de olores
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Mantenimiento fácil y eficiente
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Sin polvo y sin fragancia
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Probada por los veterinarios
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -247,78 +273,107 @@
             </div>
             <div class="text-center m-4">
                 <!-- cambiar el btn cuando agregue sass -->
-                <button type="button" class="btn-danger rounded-3">
-                    <a href="./contacto.html">
-                        <h6>Lista de precios.</h6>
-                    </a>
+                <button type="button" class="button btn--link">
+                    <a href="./contacto.html">+info </a>
                 </button>
             </div>
 
-            <div class="row row-cols-1 row-cols-xl-4 row-cols-md-3 row-cols-sm-2 g-4 m-4 mb-4">
+            <div class="container-fluid mb-4">
+                <div class="row row-cols-lg-4 g-4">
 
-                <div class="card h-100">
-                    <img src="../assets/img/novedades/flexi.jpg" alt="correas flexi">
-                    <div class="card-body">
-                        <h5 class="card-title">Correas Flexi</h5>
-                        <p class="card-text">Ninguna correa para perros es igual a otra: tenemos los artículos clásicos
-                            para
-                            perros en diferentes materiales y versiones. De nylon o cuero, con extension o
-                            amortiguadores,
-                            correas enrollables Flexi con tirones o cuerda, reflectantes o con estampados coloridos.
-                            Tenemos
-                            la correa adecuada para cada paseo con tu perro. Nuestra gama de productos también incluye
-                            correas para propósitos especiales como ciclismo, jogging o recorridos.</p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/novedades/flexi.jpg" class="img-roundedFit" alt="correas flexi">
+                            <div class="card-body">
+                                <h5 class="card-title">Correas Flexi</h5>
+                                <p class="card-text">Ninguna correa para perros es igual a otra: tenemos los artículos
+                                    clásicos
+                                    para
+                                    perros en diferentes materiales y versiones. De nylon o cuero, con extension o
+                                    amortiguadores,
+                                    correas enrollables Flexi con tirones o cuerda, reflectantes o con estampados
+                                    coloridos.
+                                    Tenemos
+                                    la correa adecuada para cada paseo con tu perro. Nuestra gama de productos también
+                                    incluye
+                                    correas para propósitos especiales como ciclismo, jogging o recorridos.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card h-100">
-                    <img src="../assets/img/productos/rampaTrixie.jpg" alt="rampa para autos">
-                    <div class="card-body">
-                        <h5 class="card-title">Artículos para perros</h5>
-                        <p class="card-text">Tenemos una variedad de productos en nuestra selección. Por ejemplo
-                            nuestros
-                            productos "Denta Fun“ para el cuidado
-                            dental de tu perro o la serie deportiva para perros y dueños activos y amantes del deporte.
-                            Nuestros artículos de "Safer Life“ sirven para facilitar la visibilidad en la oscuridad a ti
-                            y a
-                            tu mascota con los productos luminosos y reflectantes. Los productos de "Friends on Tour“ te
-                            equipan a ti y a tu perro cuando salen de viaje. Los artículos de "Dog Activity“ mantienen a
-                            tu
-                            perro activo y ocupado.</p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/productos/rampaTrixie.jpg" class="img-roundedFit"
+                                alt="rampa para autos">
+                            <div class="card-body">
+                                <h5 class="card-title">Artículos para perros</h5>
+                                <p class="card-text">Tenemos una variedad de productos en nuestra selección. Por ejemplo
+                                    nuestros
+                                    productos "Denta Fun“ para el cuidado
+                                    dental de tu perro o la serie deportiva para perros y dueños activos y amantes del
+                                    deporte.
+                                    Nuestros artículos de "Safer Life“ sirven para facilitar la visibilidad en la
+                                    oscuridad
+                                    a ti
+                                    y a
+                                    tu mascota con los productos luminosos y reflectantes. Los productos de "Friends on
+                                    Tour“ te
+                                    equipan a ti y a tu perro cuando salen de viaje. Los artículos de "Dog Activity“
+                                    mantienen a
+                                    tu
+                                    perro activo y ocupado.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card h-100">
-                    <img src="../assets/img/productos/comedero automatico trixie.jpg" alt="comedero automático">
-                    <div class="card-body">
-                        <h5 class="card-title">Artículos para gatos</h5>
-                        <p class="card-text">Los gatos necesitan una amplia selección de articulos para rascar, jugar,
-                            mantener su higiene
-                            y disfrutar de juegos interactivos. Por ejemplo nuestros productos "Agility" para poder
-                            jugar,
-                            rascar y perseguir.
-                            Nuestras bandejas sanitarias y gel sanitario ayudan a tu gato a mantener la higiene que
-                            tanto
-                            les gusta. Los productos "Safer Life",
-                            ayudan a mantener la visibilidad en lugares oscuros. Los artículos para la casa como
-                            rascadores,
-                            camas y más, que hacen de tu casa lo que llamamos hogar.
-                        </p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/productos/comedero automatico trixie.jpg" class="img-roundedFit"
+                                alt="comedero automático">
+                            <div class="card-body">
+                                <h5 class="card-title">Artículos para gatos</h5>
+                                <p class="card-text">Los gatos necesitan una amplia selección de articulos para rascar,
+                                    jugar,
+                                    mantener su higiene
+                                    y disfrutar de juegos interactivos. Por ejemplo nuestros productos "Agility" para
+                                    poder
+                                    jugar,
+                                    rascar y perseguir.
+                                    Nuestras bandejas sanitarias y gel sanitario ayudan a tu gato a mantener la higiene
+                                    que
+                                    tanto
+                                    les gusta. Los productos "Safer Life",
+                                    ayudan a mantener la visibilidad en lugares oscuros. Los artículos para la casa como
+                                    rascadores,
+                                    camas y más, que hacen de tu casa lo que llamamos hogar.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card h-100">
-                    <img src="../assets/img/productos/recintoNaturaTrixie.jpg" alt="recinto para Conejos">
-                    <div class="card-body">
-                        <h5 class="card-title">Conejos y pequeñas mascotas</h5>
-                        <p class="card-text">También tenemos series de productos para pequeños animales. En estas series
-                            podrás encontrar artículos con diseños y fines similares o hechos del mismo material.
-                            Descubre
-                            nuestras series "Natural Living“, "Natura“ o "Pure Nature“ cuyo enfoque está en materiales e
-                            ingredientes naturales.</p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../assets/img/productos/recintoNaturaTrixie.jpg" class="img-roundedFit"
+                                alt="recinto para Conejos">
+                            <div class="card-body">
+                                <h5 class="card-title">Conejos y pequeñas mascotas</h5>
+                                <p class="card-text">También tenemos series de productos para pequeños animales. En
+                                    estas
+                                    series
+                                    podrás encontrar artículos con diseños y fines similares o hechos del mismo
+                                    material.
+                                    Descubre
+                                    nuestras series "Natural Living“, "Natura“ o "Pure Nature“ cuyo enfoque está en
+                                    materiales e
+                                    ingredientes naturales.</p>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
+
+
         </div>
     </main>
 
@@ -329,7 +384,7 @@
 
             <div class="row my-3">
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
 
                     <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 m-auto"
                         style="width: 150px; height: 150px;">
@@ -341,29 +396,30 @@
                         <ul class="list-unstyled d-flex flex-row justify-content-center">
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                    <ion-icon name="logo-whatsapp" class="icon__color--whatsapp "></ion-icon>
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-facebook"></ion-icon>
+                                    <ion-icon name="logo-facebook" class="icon__color--facebook"></ion-icon>
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-instagram"></ion-icon>
+                                    <img class="insta__logo" src="../assets/img/logos/instagram-logo.png"
+                                        alt="instagram-logo">
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-youtube"></ion-icon>
+                                    <ion-icon name="logo-youtube" class="icon__color--youtube"></ion-icon>
                                 </a>
                             </li>
                         </ul>
 
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
                     <h4 class="text-uppercase mb-4">Menu</h4>
 
                     <ul class="list-unstyled">
@@ -373,7 +429,7 @@
                             </a>
                         </li>
                         <li class="mb-2">
-                            <a href="./productos.html" class="nav-link">
+                            <a href="./productos.html" class="nav-link active">
                                 <ion-icon name="paw-outline"></ion-icon>Productos
                             </a>
                         </li>
@@ -395,7 +451,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
                     <h4 class="text-uppercase mb-4">Contacto</h4>
 
                     <ul class="list-unstyled">
