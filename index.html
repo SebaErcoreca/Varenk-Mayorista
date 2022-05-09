@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <meta name="description" content="Aquí podras enterarte de nuestras últimas novedades.">
+    <meta name="keywords"
+        content="Mascota, Perro, Gato, Roedores, Uruguay, Arena, Sanitario, Ecologico, Intersand, Trixie, Varenk">
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Bootsrap -->
@@ -27,7 +30,7 @@
 
     <!-- navbar -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-light px-4 mb-4">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 mb-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
                     <img src="./assets/img/logos/logovarenk.png" alt="logo de la empresa">
@@ -43,28 +46,28 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+                            <a class="nav-link" aria-current="page" href="./pages/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/marcas.html">Marcas</a>
+                            <a class="nav-link" aria-current="page" href="./pages/marcas.html">Marcas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/empresa.html">Empresa</a>
+                            <a class="nav-link" aria-current="page" href="./pages/empresa.html">Empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                            <a class="nav-link" aria-current="page" href="./pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="button btn--send" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main class="m-4">
         <!-- carousel -->
         <div id="carousel__inicio" class="carousel slide mb-4" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -72,15 +75,10 @@
                     aria-current="true" aria-label="Slide 0"></button>
                 <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="1"
                     aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel__inicio" data-bs-slide-to="2"
-                    aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/banner/fbanner0.jpg" class="img-fluid" alt="img banner 0">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/banner/fbanner1.jpg" class="img-fluid" alt="img banner 1">
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/img/banner/fbanner2.jpg" class="img-fluid" alt="img banner 2">
@@ -101,10 +99,11 @@
             <h2>Novedades</h2>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="row row-cols-1 row-cols-lg-3 g-4 mb-4">
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/img/novedades/ecolife.png" class="card-img-top" alt="sanitario ecolife">
+                    <img src="./assets/img/novedades/ecolife.png" class="img-roundedFit" id="card__pngImg"
+                        alt="sanitario ecolife">
                     <div class="card-body">
                         <h5 class="card-title">Arena aglutinante ecológica ultrapremium</h5>
                         <p class="card-text">La arena compostable ultraprémium contribuye de manera sostenible y
@@ -115,7 +114,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/img/novedades/flexi xtreme.jpg" class="card-img-top"
+                    <img src="./assets/img/novedades/flexi xtreme.jpg" class="img-roundedFit card__img"
                         alt="correa flexi modelo xtreme">
                     <div class="card-body">
                         <h5 class="card-title">Nueva Flexi Xtreme</h5>
@@ -130,7 +129,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/img/novedades/rascador.jpg" class="card-img-top"
+                    <img src="./assets/img/novedades/rascador.jpg" class="img-roundedFit card__img"
                         alt="rascador de cuatro pisos trixie">
                     <div class="card-body">
                         <h5 class="card-title">¡Siempre XXL!</h5>
@@ -149,7 +148,7 @@
 
             <div class="row my-3">
 
-                <div class="col-lg-3 col-md-3 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
 
                     <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 m-auto"
                         style="width: 150px; height: 150px;">
@@ -161,34 +160,35 @@
                         <ul class="list-unstyled d-flex flex-row justify-content-center">
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                    <ion-icon name="logo-whatsapp" class="icon__color--whatsapp "></ion-icon>
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-facebook"></ion-icon>
+                                    <ion-icon name="logo-facebook" class="icon__color--facebook"></ion-icon>
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-instagram"></ion-icon>
+                                    <img class="insta__logo" src="./assets/img/logos/instagram-logo.png"
+                                        alt="instagram-logo">
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-youtube"></ion-icon>
+                                    <ion-icon name="logo-youtube" class="icon__color--youtube"></ion-icon>
                                 </a>
                             </li>
                         </ul>
 
                 </div>
 
-                <div class="col-lg-3 col-md-3 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
                     <h4 class="text-uppercase mb-4">Menu</h4>
 
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="./index.html" class="nav-link">
+                    <ul class="navbar-nav list-unstyled">
+                        <li class="nav-item mb-2">
+                            <a href="./index.html" class="nav-link active">
                                 <ion-icon name="paw-outline"></ion-icon>Inicio
                             </a>
                         </li>
@@ -197,17 +197,17 @@
                                 <ion-icon name="paw-outline"></ion-icon>Productos
                             </a>
                         </li>
-                        <li class="mb-2">
+                        <li class="nav-item mb-2">
                             <a href=".//pages/marcas.html" class="nav-link">
                                 <ion-icon name="paw-outline"></ion-icon>Marcas
                             </a>
                         </li>
-                        <li class="mb-2">
+                        <li class="nav-item mb-2">
                             <a href="./pages/empresa.html" class="nav-link">
                                 <ion-icon name="paw-outline"></ion-icon>Empresa
                             </a>
                         </li>
-                        <li class="mb-2">
+                        <li class="nav-item mb-2">
                             <a href="./pages/contacto.html" class="nav-link">
                                 <ion-icon name="paw-outline"></ion-icon>Contacto
                             </a>
@@ -215,7 +215,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
                     <h4 class="text-uppercase mb-4">Contacto</h4>
 
                     <ul class="list-unstyled">

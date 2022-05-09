@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <meta name="description" content="Si compartes nuestra pasion por las mascotas y el rubro contactate con nosotros.">
+    <meta name="keywords"
+        content="Mascota, Empresa, Contacto, Comercio, Venta, Perro, Gato, Roedores, Uruguay, Arena, Sanitario, Intersand, Trixie, Varenk">
     <!-- css -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- Bootsrap -->
@@ -25,7 +28,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/img/logos/logovarenk.png" alt="logo de la empresa">
@@ -38,16 +41,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                            <a class="nav-link" aria-current="page" href="./productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./marcas.html">Marcas</a>
+                            <a class="nav-link" aria-current="page" href="./marcas.html">Marcas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./empresa.html">Empresa</a>
+                            <a class="nav-link" aria-current="page" href="./empresa.html">Empresa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
@@ -55,7 +58,7 @@
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="button btn--send" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -63,34 +66,43 @@
     </header>
 
     <main>
+        <div class="container-fluid">
+            <div class="row">
+                <img class="img-fluid img__contacto" src="../assets/img/otros/img contacto background.jpg"
+                    alt="background img">
 
-
-        <div class="row">
-            <img class="img-fluid img__contacto" src="../assets/img/otros/img contacto background.jpg" alt="background img">
-
-            <div class="col-sm-12 text-center text-uppercase m-4">
-                <h2>contacto</h2>
-            </div>
-            <form name="form__contacto">
-                
-                <div class="row">
-                    <div class="col-sm-6">
-                        <input type="text" name="nombre" placeholder="Nombre y Apellido" class="campo__contacto" required>
-                        <input type="text" name="comercio" placeholder="Comercio" class="campo__contacto" required>
-                        <input type="text" name="direccion" placeholder="Dirección" class="campo__contacto" required>
-                        <input type="text" name="telefono" placeholder="Teléfono" class="campo__contacto" required>
-                        <input type="text" name="celular" placeholder="Celular" class="campo__contacto">
-                        <input type="mail" name="mail" placeholder="Email" class="campo__contacto" required>
-                    </div>
-                    <div class="col-sm-6">
-                        <textarea name="mensaje" id="campo__comentario" placeholder="Comentario"></textarea>
-                        <button class="btn" btn-primary>Enviar</button>
-                    </div>
+                <div class="col-sm-12 text-center text-uppercase m-4">
+                    <h2>contacto</h2>
                 </div>
-            </form>
+                <form name="form__contacto" class="form__contacto">
 
+                    <div class="row">
+                        <div class="col-sm-6 h-100">
+                            <input type="text" name="nombre" placeholder="Nombre y Apellido" class="campo__contacto"
+                                required>
+                            <input type="text" name="comercio" placeholder="Comercio" class="campo__contacto" required>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" id="radio1" name="cmethod" checked>
+                                <label class="form-check-label" for="radio1">Veterinaria</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" id="radio2" name="cmethod">
+                                <label class="form-check-label" for="radio2">Pet Shop</label>
+                            </div>
+                            <input type="text" name="direccion" placeholder="Dirección" class="campo__contacto"
+                                required>
+                            <input type="text" name="telefono" placeholder="Teléfono" class="campo__contacto" required>
+                            <input type="text" name="celular" placeholder="Celular" class="campo__contacto">
+                            <input type="mail" name="mail" placeholder="Email" class="campo__contacto" required>
+                        </div>
+                        <div class="col-sm-6 h-100 justify-content-end">
+                            <textarea name="mensaje" id="campo__comentario" placeholder="Comentario"></textarea>
+                            <button class="button btn--send" btn-primary>Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-
     </main>
 
     <footer class="text-center text-md-center text-dark">
@@ -99,7 +111,7 @@
 
             <div class="row my-3">
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
 
                     <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 m-auto"
                         style="width: 150px; height: 150px;">
@@ -111,29 +123,30 @@
                         <ul class="list-unstyled d-flex flex-row justify-content-center">
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                    <ion-icon name="logo-whatsapp" class="icon__color--whatsapp "></ion-icon>
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-facebook"></ion-icon>
+                                    <ion-icon name="logo-facebook" class="icon__color--facebook"></ion-icon>
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-instagram"></ion-icon>
+                                    <img class="insta__logo" src="../assets/img/logos/instagram-logo.png"
+                                        alt="instagram-logo">
                                 </a>
                             </li>
                             <li>
                                 <a href="#!">
-                                    <ion-icon name="logo-youtube"></ion-icon>
+                                    <ion-icon name="logo-youtube" class="icon__color--youtube"></ion-icon>
                                 </a>
                             </li>
                         </ul>
 
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
                     <h4 class="text-uppercase mb-4">Menu</h4>
 
                     <ul class="list-unstyled">
@@ -158,14 +171,14 @@
                             </a>
                         </li>
                         <li class="mb-2">
-                            <a href="./contacto.html" class="nav-link">
+                            <a href="./contacto.html" class="nav-link active">
                                 <ion-icon name="paw-outline"></ion-icon>Contacto
                             </a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 mb-4">
                     <h4 class="text-uppercase mb-4">Contacto</h4>
 
                     <ul class="list-unstyled">
