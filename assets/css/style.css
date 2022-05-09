@@ -1,90 +1,75 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-body {
-    background-color: chocolate;
-}
-
 .navbar {
-    box-shadow:
-        0 4px 12px 0 rgb(0 0 0 / 7%),
-        0 2px 4px rgb(0 0 0 / 5%);
-}
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.425), 0px 2px 4px rgba(0, 0, 0, 0.384);
+  width: 98% !important; }
 
-.background__color__footer {
-    background-color: rgba(0, 0, 0, 0.2)
-}
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.151) !important;
+  border-radius: 1rem; }
 
-@media (min-width: 768px) {
-    .col-md-3 {
-        flex: 0 0 auto;
-        width: 33%!important;
-    }
-}
+.card {
+  border: 3px solid black !important;
+  border-radius: 1rem !important; }
 
-@media (min-width: 992px){
-.col-lg-3 {
-    flex: 0 0 auto;
-    width: 33%!important;
-}
-}
+.card-body {
+  background-color: #F4FDD9;
+  border-radius: 1rem !important; }
 
-.logoMarcas {
-    height: auto;
-    width: auto;
-    transition: transform 2s ease-in-out;
-}
-
-.logoMarcas:hover {
-    animation: up-and-down 2s ease-in-out;
-}
-
-@keyframes up-and-down {
-    0% {
-        transform: translateY(0);
-    }
-
-    25% {
-        transform: translateY(-10px);
-    }
-
-    50% {
-        transform: translateY(0);
-
-    }
-
-    75% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(0);
-
-    }
-}
-
-.font-family__comicNeue{
-    font-family: 'Comic Neue', cursive;
-}
-
-.campo__contacto{
-    border: 0px;
-    padding: 7px 7px;
-    margin-bottom: 10px;
-    color: #939598;
-    width: 100%;
-}
-
+.campo__contacto {
+  border: 0px;
+  padding: 7px 7px;
+  margin-bottom: 10px;
+  color: #939598;
+  width: 100%; }
 
 #campo__comentario {
-    border: 0px;
-    padding: 7px 7px;
-    margin-bottom: 10px;
-    color: #939598;
-    height: 180px;
-    width: 100%;
-}
+  border: 0px;
+  padding: 7px 7px;
+  margin-bottom: 10px;
+  color: #939598;
+  height: 180px;
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+.background__color__footer {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.img {
+  overflow: hidden !important; }
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 33% !important; } }
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 33% !important; } }
+
+.logoMarcas {
+  height: auto;
+  width: auto;
+  transition: transform 2s ease-in-out; }
+
+.logoMarcas:hover {
+  animation: up-and-down 2s ease-in-out; }
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0); }
+  25% {
+    transform: translateY(-10px); }
+  50% {
+    transform: translateY(0); }
+  75% {
+    transform: translateY(-10px); }
+  100% {
+    transform: translateY(0); } }
+
+.font-family__comicNeue {
+  font-family: 'Comic Neue', cursive; }

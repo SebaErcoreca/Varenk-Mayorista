@@ -1,0 +1,24 @@
+//colors and other palletes
+@import "palettes.scss";
+
+.navbar {
+    box-shadow: 
+    0px 4px 12px 0px rgba(0, 0, 0, 0.425),
+    0px 2px 4px rgba(0, 0, 0, 0.384);
+    width: 98%!important;
+}
+
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.151)!important;
+    border-radius: 1rem;
+}
+
+.card {
+    border: 3px solid black!important;
+    border-radius: 1rem!important;
+}
+
+.card-body {
+    background-color: $lightGoldenrodYellow;
+    border-radius: 1rem!important;
+}
