@@ -20,4 +20,8 @@
     background-color: map-get($map: $colors, $key: "primary");
     border: 1rem solid map-get($map: $colors, $key: "primary");
     border-radius: .5rem;
+    width: 95%;
+    max-width: 95%;
+    flex-shrink: 1;
 }
+

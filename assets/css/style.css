@@ -1,25 +1,25 @@
 .navbar {
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.425), 0px 2px 4px rgba(0, 0, 0, 0.384);
-  width: 98% !important; }
+  width: 98%; }
 
 li a {
-  color: black !important; }
+  color: black; }
 
 .nav-link:hover {
-  background-color: rgba(0, 0, 0, 0.151) !important;
+  background-color: rgba(0, 0, 0, 0.151);
   border-radius: 1rem; }
 
 .card__img {
-  background-color: transparent !important;
-  border-radius: 10px !important; }
+  background-color: transparent;
+  border-radius: 10px; }
 
 .card {
-  background-color: #f7d0ae !important;
-  border: none !important; }
+  background-color: #f7d0ae;
+  border: none; }
 
 .img-roundedFit, #card__pngImg {
-  border-radius: 10px !important;
-  margin: 1rem !important; }
+  border-radius: 10px;
+  margin: 1rem; }
 
 #card__pngImg {
   background-color: white; }
@@ -133,7 +133,10 @@ button a {
 .form__contacto {
   background-color: #E4FFE1;
   border: 1rem solid #E4FFE1;
-  border-radius: .5rem; }
+  border-radius: .5rem;
+  width: 95%;
+  max-width: 95%;
+  flex-shrink: 1; }
 
 * {
   margin: 0;
@@ -145,17 +148,17 @@ button a {
   background-color: rgba(0, 0, 0, 0.2); }
 
 .img {
-  overflow: hidden !important; }
+  overflow: hidden; }
 
 @media (min-width: 768px) {
   .col-md-3 {
     flex: 0 0 auto;
-    width: 33% !important; } }
+    width: 33%; } }
 
 @media (min-width: 992px) {
   .col-lg-3 {
     flex: 0 0 auto;
-    width: 33% !important; } }
+    width: 33%; } }
 
 .logoMarcas {
   height: auto;

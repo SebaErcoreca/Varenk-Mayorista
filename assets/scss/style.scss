@@ -14,25 +14,34 @@
     text-decoration: none;
 }
 
+
+
 .background__color__footer {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
 .img{
-    overflow: hidden!important;
+    overflow: hidden;
+}
+
+@media (min-width: 576px) {
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 99%;
+    }
 }
 
 @media (min-width: 768px) {
     .col-md-3 {
         flex: 0 0 auto;
-        width: 33%!important;
+        width: 33%;
     }
 }
 
 @media (min-width: 992px){
 .col-lg-3 {
     flex: 0 0 auto;
-    width: 33%!important;
+    width: 33%;
 }
 }
 
